@@ -7,7 +7,25 @@
     <title>Infinite Scroll Posts</title>
   </head>
   <body>
-    <!-- Content -->
+    <h1>Infinite Scroll Posts</h1>
+
+    <div class="filter-container">
+      <input
+        id="filter"
+        class="filter"
+        type="text"
+        placeholder="Filter posts..."
+      />
+    </div>
+
+    <!-- Posts will be added using JS -->
+    <div id="posts-container"></div>
+
+    <div id="loader" class="loader">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+    </div>
 
     <script src="app.js"></script>
   </body>
